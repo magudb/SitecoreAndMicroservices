@@ -1,0 +1,17 @@
+{
+  "name": "updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.4.0",
+    "lodash": "^3.10.1",
+    "rethinkdb": "^2.2.0",
+    "when": "^3.7.5"
+  }
+}

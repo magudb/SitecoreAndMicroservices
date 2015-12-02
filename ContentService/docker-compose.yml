@@ -1,0 +1,16 @@
+rest:
+ build: app/
+ ports: 
+  - "80:80"
+ links: 
+  - storage
+
+updater:
+ build: updater/ 
+ links: 
+  - storage
+
+storage:
+ image: rethinkdb:latest
+ volumes: 
+   - "/opt/rethinkdb:/data"
