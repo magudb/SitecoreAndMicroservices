@@ -106,6 +106,7 @@
     <Compile Include="Models\ItemModel.cs" />
     <Compile Include="Models\ItemPropertyModel.cs" />
     <Compile Include="Models\LinkFieldValueModel.cs" />
+    <Compile Include="Models\PresentationModel.cs" />
     <Compile Include="Models\ServerResponseModel.cs" />
     <Compile Include="PipelineBasedItemProviders\DeleteItemProcessor.cs" />
     <Compile Include="PipelineBasedItemProviders\SaveItemProcessor.cs" />

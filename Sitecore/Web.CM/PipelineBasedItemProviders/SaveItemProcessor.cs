@@ -37,7 +37,6 @@ namespace Web.CM.PipelineBasedItemProviders
 
 
                     var routingKey = "add" + item.Paths.FullPath.ToLower().Replace("/", ".");
-                   
 
                     channel.ExchangeDeclare(Exchange, "topic");
 
